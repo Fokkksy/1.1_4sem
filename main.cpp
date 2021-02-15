@@ -31,6 +31,15 @@ int main() {
 	cout << "The divion of inputed numers is " << another_number / number << endl;
 	cout << "The program is ended." << endl;
 	cout << "Goodbye, dearest User!" << endl;
-	
+
+	int quality;
+	cout << "We need your feedback. Please, input 10." << endl;
+	cin >> quality;
+	while (quality != 10) {
+		cout << "WRONG INPUT! Please, input 10." << endl;
+		cin >> quality;
+	}
+	cout << "Thank you for so high mark! We appriciate your opinion!" << endl;
+
 	return 0;
 }
