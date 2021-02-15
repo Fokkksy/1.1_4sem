@@ -9,10 +9,12 @@ int main() {
 
 	cout << "Checking input..." << endl;
 
-	if (number == 0) {
+	while (number == 0) {
 		cout << "Sorry '0' is not availiable" << endl;
+		cin >> number;
 	}
-
+	
+	cout << "The programm works OK..." << endl;
 	
 	return 0;
 }
