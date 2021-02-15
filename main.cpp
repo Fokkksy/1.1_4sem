@@ -15,6 +15,14 @@ int main() {
 	}
 	
 	cout << "The programm works OK..." << endl;
+
+	int another_number;
+	cout << "Input another nember here " << endl;
+	cin >> another_number;
+	while (number == another_number) {
+		cout << "Sorry "<< another_number << " mathes previous number " << number << endl;
+		cin >> number;
+	}
 	
 	return 0;
 }
