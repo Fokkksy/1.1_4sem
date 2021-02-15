@@ -28,6 +28,7 @@ int main() {
 	cout << "The differance of inputed numers is " << number - another_number << endl;
 	cout << "The multiplication of inputed numers is " << number * another_number << endl;
 	cout << "The divion of inputed numers is " << another_number / number << endl;
+	cout << "The program is ended." << endl;
 	
 	return 0;
 }
