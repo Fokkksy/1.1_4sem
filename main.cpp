@@ -25,6 +25,8 @@ int main() {
 		cin >> number;
 	}
 
+	cout << "The programm works OK..." << endl;
+
 	cout << "The sum of inputed numers is " << number + another_number << endl;
 	cout << "The differance of inputed numers is " << number - another_number << endl;
 	cout << "The multiplication of inputed numers is " << number * another_number << endl;
