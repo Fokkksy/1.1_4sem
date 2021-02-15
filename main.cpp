@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-	int number;
+	double number;
 	cout << "Hello, dearest User!" << endl;
 	cout << "Think number... and input it here " << endl;
 	cin >> number;
@@ -17,13 +17,15 @@ int main() {
 	
 	cout << "The programm works OK..." << endl;
 
-	int another_number;
+	double another_number;
 	cout << "Input another nember here " << endl;
 	cin >> another_number;
 	while (number == another_number) {
 		cout << "Sorry "<< another_number << " mathes previous number " << number << endl;
 		cin >> number;
 	}
+
+	cout << "The programm works OK..." << endl;
 
 	cout << "The sum of inputed numers is " << number + another_number << endl;
 	cout << "The differance of inputed numers is " << number - another_number << endl;
