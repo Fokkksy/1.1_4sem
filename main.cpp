@@ -5,10 +5,10 @@ using namespace std;
 int main() {
 	double number;
 	cout << "Hello, dearest User!" << endl;
-	cout << "You should think number... and input it here " << endl;
+	cout << "Plese, think number... and input it here " << endl;
 	cin >> number;
 
-	cout << "Checking input..." << endl;
+	cout << "Plese, wait. We are checking input..." << endl;
 
 	while (number == 0) {
 		cout << "Sorry '0' is not availiable" << endl;
