@@ -4,6 +4,7 @@ using namespace std;
 
 int main() {
 	int number;
+	cout << "Hello, dearest User!" << endl;
 	cout << "Think number... and input it here " << endl;
 	cin >> number;
 
