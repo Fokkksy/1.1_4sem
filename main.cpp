@@ -42,6 +42,7 @@ int main() {
 		cin >> quality;
 	}
 	cout << "Thank you for so high mark! We appriciate your opinion!" << endl;
+	cout << "Please, be back!" << endl;
 
 	return 0;
 }
