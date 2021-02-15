@@ -5,7 +5,7 @@ using namespace std;
 int main() {
 	double number;
 	cout << "Hello, dearest User!" << endl;
-	cout << "Think number... and input it here " << endl;
+	cout << "You should think number... and input it here " << endl;
 	cin >> number;
 
 	cout << "Checking input..." << endl;
@@ -18,7 +18,7 @@ int main() {
 	cout << "The programm works OK..." << endl;
 
 	double another_number;
-	cout << "Input another nember here " << endl;
+	cout << "Now you should input another nember here " << endl;
 	cin >> another_number;
 	while (number == another_number) {
 		cout << "Sorry "<< another_number << " mathes previous number " << number << endl;
